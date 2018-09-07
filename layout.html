@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Homepage | Book Impact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Playfair+Display|Prata|Raleway|Shrikhand" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="navbar" id="navbar1">
+
+
+
+
+      <a href="index.html"><h1> BOOK IMPACT </h1></a>
+      <h2> Reviews Of The Most Popular Self Development Books </h2>
+
+      <!--*** toolbar *** -->
+      <section class="toolbar">
+        <a href="homepage.html"><h1>Home</h1></a>
+        <a href="bookReviews.html"><h1>Book Reviews</h1></a>
+        <a href="aboutMe.html"><h1>About Me</h1></a>
+
+        <a href="https://github.com/samiragadri/"><img src = "images/githublogocopy.png"></a>
+        <a href="mailto:youremail@address.com"> <img src = "images/emailIconcopy.png"> </a>
+        <a href="http://linkedin.com/in/samiragadri"> <img src = "images/linkedin.png"> </a>
+
+      </section>
+
+    </div>
+
+
+
+    <script>
+      // When the user scrolls the page, execute myFunction
+      window.onscroll = function() {myFunction()};
+      // Get the navbar
+      var navbar = document.getElementById("navbar1");
+      // Get the offset position of the navbar
+      var sticky = navbar.offsetTop;
+      // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+
+    <div class="main">
+        <!--*** footer *** -->
+        <footer id="copyright">
+
+        <p>Copyright &copy Samira Gadri 2018</p>
+
+        </footer>
+    </div>
+
+  </body>
+</html>

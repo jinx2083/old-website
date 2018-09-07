@@ -1,0 +1,141 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1,h2 {
+  color: #44464a;
+  font-style: normal;
+  margin: 0;
+  font-weight: normal;
+  font-family: 'Prata', serif;
+  line-height: 1.0;
+
+}
+
+h1{
+  font-size: 40px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+h2 {
+  font-size: 16px;
+  padding-bottom: 6px;
+  padding-left: 11px;
+  font-style: italic;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    /*background-color: #333;*/
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background: rgb(139, 201, 244);
+    text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia;
+  font-size: 300;
+  color: black;
+  /*border: 2px solid red;*/
+  background: rgba(230, 236, 240, 0.18);
+}
+/* Main content */
+.main {
+    margin-top: 150px; /* Add a top margin to avoid content overlay */
+    margin-right: 60px;
+}
+
+img {
+  float: right;
+  height: 36px;
+  width: 36px;
+  margin: 11px 4px 8px 4px;
+
+}
+
+.toolbar{
+  background: #ffffff;
+  margin: 0;
+  overflow: auto;
+  font-family: 'Prata', serif;
+  border-bottom: solid #e8e8e8;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 0px;
+}
+
+.toolbar h1 {
+  font-size: 16px;
+  float: left;
+  font-family: 'Prata', serif;
+  color: #6d6e70;
+  padding: 20px 10px;
+}
+
+/* Article Formatting */
+ul li {
+  padding: 5px 0px;
+}
+.topBook h1 {
+  color: black;
+  padding-top: 5px;
+  padding-left: 0;
+}
+
+.topBook {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 300px;
+  padding-right: 0px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5; /* adjusts space between the lines */
+}
+
+/* hyperlink formating */
+a {
+  text-decoration: none;
+}
+
+.byAuthor {
+  text-align: right;
+  color: #44464a;
+
+}
+
+/* Footer formating */
+footer {
+  background: #44464a;
+  padding: 15px 50px;
+  text-align: center;
+  position: relative;
+}
+
+/* ---------------------------------------
+    ABOUT ME Page
+------------------------------------------*/
+.aboutMeText {
+  padding-left: 649px;
+  padding-top: 75px;
+  padding-right: 80px;
+}
+
+.profileImg {
+  width: 500px;
+  height: auto;
+  border-radius: 500px;
+  margin: 75px;
+  float: left;
+}

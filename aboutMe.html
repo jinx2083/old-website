@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> About Me | Book Impact </title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Playfair+Display|Prata|Raleway|Shrikhand" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="navbar" id="navbar1">
+
+    <a href="index.html"><h1> BOOK IMPACT </h1></a>
+    <h2> Reviews Of The Most Popular Self Development Books </h2>
+
+    <!--*** toolbar *** -->
+    <section class="toolbar">
+      <a href="index.html"><h1>Home</h1></a>
+      <a href="bookReviews.html"><h1>Book Reviews</h1></a>
+      <a href="aboutMe.html"><h1>About Me</h1></a>
+
+      <a href="https://github.com/samiragadri/"><img src = "images/githublogocopy.png"></a>
+      <a href="mailto:youremail@address.com"> <img src = "images/emailIconcopy.png"> </a>
+      <a href="http://linkedin.com/in/samiragadri"> <img src = "images/linkedin.png"> </a>
+      <a href="http://twitter.com/samira_gadri"><img src = "images/twitter.png"></a>
+
+
+    </section>
+
+  </div>
+
+  <script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+    // Get the navbar
+    var navbar = document.getElementById("navbar1");
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+
+  <div class="main">
+
+      <img src="images/profileedited.jpg" class="profileImg" alt="profile picture">
+
+    <section class="aboutMeText">
+
+
+      <h1>Hello! I'm Samira</h1>
+      <br>
+      <p>I am currently a student from the University of British Columbia. I study Political Science and Computer Science. This unusual combination is due to my background as a refugee and my realization that tech is the greatest tool at our desposal for making a positive difference in the world. I am expected to graduate in the Spring of 2019. I would love to work in the software industry as a developer immediately after I graduate. Working with Canada Learning Code in summer 2018 has made me realize that lots of Canadian kids are not supported in their locals schools in their pursuit of a tech education. Therefore, my longterm goal is to work in public policy and promote tech literacy, and make certain computer science is at the core of the curriculum in elementary and high school levels. </p>
+      <br>
+
+      <p>Some of the things I enjoy doing on my free time are mentoring to get more youth and women interested in the tech field, coaching youth basketball, and reading self-development books. I am interested in the topic of self-development because I am always searching for ways to become more productive, to accomplish my goals, and to understand my behaviours and why it is that I fall short when I do. I believe books are one of the most accessible and best ways to altering human behaviour. </p>
+      <br>
+
+      <p>I admit I mainly started this blog for selfish reasons. I find myself reading great books with potential life-altering lessons and advice; however, I mostly forget about it after I am done. I created this blog to incentive myself to truly grasp the material and have a place I can reference the ideas if I come to forget them. The follow-up reason is to save  people from wasting their money and time on reading books that are not truly helpful and do not present novel ideas and practical advice. If you have any book recommendations, please let me know!</p>
+      <br>
+      <p>Thank you for reading!</p>
+      <br>
+
+    </section>
+
+
+
+  </div>
+  <footer id="copyright">
+
+  <p>Copyright &copy Samira Gadri 2018</p>
+
+  </footer>
+
+
+
+</body>
+</html>
